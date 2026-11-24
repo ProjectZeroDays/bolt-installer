@@ -1,5 +1,7 @@
 # bolt-deploy.sh
 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 One-shot installer and launcher for [bolt](https://github.com/cyberstrikeus/bolt) — the
 containerized security-tool MCP server. Detects the host, installs Docker if it's
 missing, pulls the image digest pinned to the host architecture, starts the
